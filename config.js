@@ -13,7 +13,7 @@ if (!ownervb) {
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [17787702909', 'TEST', true]
+global.owner = [17787702909', '𝐰ι𝓩ａ𝔯Ⓓ-ʙᴏᴛ', true]
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -72,9 +72,9 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = 'TEST┃ᴮᴼᵀ'
-global.author = 'TEST ˢᵉⁿˢᵉⁱ'
-global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
+global.packname = '𝐰ι𝓩ａ𝔯Ⓓ-ʙᴏᴛ┃ᴮᴼᵀ'
+global.author = '𝐰ι𝓩ａ𝔯Ⓓ-ʙᴏᴛ'
+global.menuvid = 'hhttps://telegra.ph/file/3109785e34b49e117cac4.png'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/guru.json\n'
 global.dygp = 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp'
 global.fgsc = 'https://github.com/Guru322/GURU-BOT'
