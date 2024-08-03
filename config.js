@@ -6,12 +6,12 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "917605902011;GURU;6281255369012;Ash"
+const ownervb = process.env.OWNERS || "447492884829;𝐰ι𝓩ａ𝔯-ʙᴏᴛ"
 
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [17787702909', '𝐰ι𝓩ａ𝔯Ⓓ-ʙᴏᴛ', true]
+global.owner = [447492884829', '𝐰ι𝓩ａ𝔯Ⓓ-ʙᴏᴛ', true]
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -20,11 +20,11 @@ for (let i = 0; i < ownerlist.length; i += 2) {
     ];
     global.owner.push(owner);
 }
-//global.pairingNumber = "17787702909" //put your bot number here
+//global.pairingNumber = "447492884829" //put your bot number here
 
-global.mods = ['17787702909']
-global.prems = ['17787702909']
-global.allowed = ['17787702909']
+global.mods = ['447492884829']
+global.prems = ['447492884829']
+global.allowed = ['447492884829']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -89,7 +89,7 @@ global.error = '❌'
 global.xmoji = '🔥'
 
 global.multiplier = 69
-global.maxwarn = '3'
+global.maxwarn = '5'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
